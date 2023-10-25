@@ -2,6 +2,7 @@ models
 llama.cpp
 venv
 winllama
+.idea
 
 .log
 
