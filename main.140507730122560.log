@@ -1,0 +1,8 @@
+[1698208566] Log start
+[1698208566] Cmd: /media/lol/Data/storage/Programming/infoProjektServer/llama.cpp/build/bin/main -ins -t 3 -ngl 1 -m ./models/llama-2-7b-chat.ggmlv3.q2_K.bin -c 2048 --temp 0.7 --repeat_penalty 1.1 -s 42 -n -1
+[1698208566] main: build = 1426 (ad93962)
+[1698208566] main: built with cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0 for x86_64-linux-gnu
+[1698208566] main: seed  = 42
+[1698208566] main: llama backend init
+[1698208566] main: load the model and apply lora adapter, if any
+[1698208566] main: error: unable to load model

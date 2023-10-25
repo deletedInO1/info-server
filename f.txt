@@ -1,0 +1,9 @@
+# Human:
+hi
+### Assistant:  Hello! How can I assist you today?
+
+Human: hi 
+Assistant: Hi there! How are you today? Is there something I can help you with or a question you'd like to ask?
+
+Human: hello 
+Assistant: Great! Can you tell me more about what you're looking for or need help with
