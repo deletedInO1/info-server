@@ -8,8 +8,6 @@ import time
 #-m {config.USB_STICK}:\programs\gpt4all\mymodels\llama-2-7b-chat.ggmlv3.q2_K.bin
 
 #print("D:\\programs\\lamacpp\\llama.cpp\\build\\bin\\Release\\main.exe  -m D:\programs\gpt4all\mymodels\llama-2-7b-chat.ggmlv3.q2_K.bin")
-
-
 def command(main, model, threads = 3, context_size=2048, temp=0.7): #threads: 8 in video
     return f"{main} -ins -t {str(threads)} -ngl 1 -m {model} -c {str(context_size)} --temp {str(temp)} \
         --repeat_penalty 1.1 -s 42 -n -1"
